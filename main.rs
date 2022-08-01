@@ -4,6 +4,7 @@ use std::io::{*, self};
 use std::fs::File;
 use std::cmp::Ordering;
 use rand::Rng;
+
 fn main() -> io::Result<()>
 {
     let rand_num = rand::thread_rng().gen_range(1..11);
